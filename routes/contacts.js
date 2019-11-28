@@ -1,32 +1,32 @@
 const express = require('express');
 const router = express.Router();
 
-// @route   GET api/contacts
-// @desc    Get all user contacts
-// @access  Private
+// Route  GET api/contacts
+// Desc   GET all contacts
+// Access Private
 router.get('/', (req, res) => {
-   res.send('Get all contacts');
+  console.log('Get All Contacts');
 });
 
-// @route   POST api/contacts
-// @desc    Add contacts
-// @access  Private
+// Route  POST api/contacts
+// Desc   Add Contact
+// Access Private
 router.post('/', (req, res) => {
-  res.send('Add contact');
+  console.log('Add Contacts');
 });
 
-// @route   PUT api/contacts/:id
-// @desc    Update contact
-// @access  Private
+// Route  PUT api/contacts/:id
+// Desc   Update contact
+// Access Private
 router.put('/:id', (req, res) => {
-  res.send('Update contact');
+  console.log('Update Contact');
 });
 
-// @route   DELETE api/contacts/:id
-// @desc    Delete contact
-// @access  Private
+// Route  DELETE api/contacts/:id
+// Desc   Delete contact
+// Access Private
 router.delete('/:id', (req, res) => {
-  res.send('Delete contact');
+  console.log('Delete Contact');
 });
 
 module.exports = router;

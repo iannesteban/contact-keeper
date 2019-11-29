@@ -1,4 +1,4 @@
 {
   "mongoURI": "mongodb+srv://keeperuser:keeperpassword@keeperapi-9nkqz.mongodb.net/contacts?retryWrites=true&w=majority",
-  "jwtSecret": "Secrete"
+  "jwtSecret": "Secret"
 }
